@@ -1,0 +1,55 @@
+body {
+    font-family: 'Open Sans';
+    font-size: 24px;
+    background: black;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+h1 {
+    font-family: 'Open Sans Extra Bold';
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Open Sans Extra Bold';
+}
+
+/* Font Families */
+@font-face {
+    font-family: 'Open Sans Extra Bold';
+    src: url('OpenSans-ExtraBold.woff2') format('woff2'), url('OpenSans-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Bold.woff2') format('woff2'), url('OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Regular.woff2') format('woff2'), url('OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Italic.woff2') format('woff2'), url('OpenSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
